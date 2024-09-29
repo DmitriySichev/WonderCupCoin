@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background.jpeg'); /* Изображение фона находится в той же папке */
+    background-size: cover; /* Растягивает фон на весь экран */
+    background-position: center; /* Центрирует фон */
+    background-attachment: fixed; /* Фон остается на месте при прокрутке */
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для шапки */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header img.logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav .nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+nav .nav-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav .nav-menu li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+nav .nav-menu li a:hover {
+    color: #ff6b81;
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для секций */
+}
+
+.values, .steps, .roadmap-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.value, .step, .roadmap-item {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 40px; /* Размер логотипа X */
+    margin: 0 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer img.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+footer form input, footer form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.buy-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b81;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #ff4757;
+}
+
+
